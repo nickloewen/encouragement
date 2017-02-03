@@ -16,12 +16,14 @@ exports.get = function () {
 		$('.quoteDetails').each(function(i, obj) {
 
 			let quote = {
-				text: $('.quoteText', $(this)).contents().get(0).nodeValue.trim(),
+				text: $('.quoteText', $(this)).contents().get(0).nodeValue,//.trim(),
 				authorOrTitle: $('.authorOrTitle', $(this)).text()
 			}
 			json.push(quote);
 		});
 
-		return [ json[Math.floor(Math.random()*json.length)];
+		return json[Math.floor(Math.random()*json.length)];
 	});
 };
+
+console.log( exports.get() );
