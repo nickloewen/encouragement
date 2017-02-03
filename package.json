@@ -1,0 +1,12 @@
+{
+  "name": "encouragement",
+  "version": "0.0.1",
+  "description": "Encouragement hotline",
+  "main": "server.js",
+  "dependencies": {
+    "request": "latest",
+    "http": "latest",
+    "twilio": "latest"
+  },
+  "author": "Nick Loewen"
+}
