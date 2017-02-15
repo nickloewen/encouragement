@@ -1,12 +1,20 @@
 {
   "name": "encouragement",
   "version": "0.0.1",
-  "description": "Encouragement hotline",
+  "description": "The server for an encouragement hotline. (Call or text to receive an encouraging message: +1 (604) 330-1528.)",
   "main": "server.js",
   "dependencies": {
-    "request": "latest",
-    "http": "latest",
-    "twilio": "latest"
+    "request": "",
+    "twilio": "",
+    "http": ""
   },
-  "author": "Nick Loewen"
+  "author": "Nick Loewen <nick@nloewen.com> (http://nloewen.com)",
+	"keywords": [ "twilio", "encouragement", "art", "telephone", "phone", "voice", "sms"],
+	"bugs": {
+		"url" : "https://github.com/nloewen/encouragement/issues"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/encouragement/"
+  }
 }
