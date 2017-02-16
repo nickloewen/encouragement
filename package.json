@@ -1,6 +1,6 @@
 {
   "name": "encouragement",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The server for an encouragement hotline. (Call or text to receive an encouraging message: +1 (604) 330-1528.)",
   "main": "app.js",
   "dependencies": {
