@@ -38,13 +38,13 @@ function Voice () {
 
 function SMS () {
   this.randomQuote = function () {
-    console.log('Voice quote at ' + time())
+    console.log('SMS quote at ' + time())
 
     var twiml = new twilio.TwimlResponse()
     var quote = quotes[Math.floor(Math.random() * quotes.length)]
     var greeting = greetings[Math.floor(Math.random() * greetings.length)]
 
-    var message = greeting + '! Here is an encouraging quote from ' + quote.author + ': \n' + quote.text
+    var message = greeting + '! Here is an encouraging quote from ' + quote.author + ': \n\n' + quote.text
     twiml.message(message)
 
     return twiml.toString()
@@ -61,7 +61,7 @@ function speakQuote (req, res) {
   res.send(v.randomQuote())
 }
 
-app.get('/sms', textQuote)
+app.post('/sms', textQuote)
 
 function textQuote (req, res) {
   var sms = new SMS()
