@@ -1,5 +1,17 @@
-# Encouragement
+![](resources/images/encouragement-banner.png)
 
-[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Call or text to receive an encouraging message: [+1 (604) 330-1528](tel://+16043301528).
+*Call or text to receive an encouraging message*: [+1 (604) 330-1528](tel://+16043301528).
+
+<br>
+<br>
+<br>
+
+***
+
+Made with twilio, node.js & optimism. [MIT license](https://choosealicense.com/licenses/mit/).
